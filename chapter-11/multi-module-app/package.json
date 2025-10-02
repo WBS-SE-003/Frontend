@@ -1,0 +1,22 @@
+{
+    "name": "multi-module-app",
+    "version": "1.0.0",
+    "description": "",
+    "source": "index.html",
+    "scripts": {
+        "dev": "parcel",
+        "build": "parcel build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "dependencies": {
+        "@tailwindcss/postcss": "^4.1.14",
+        "lodash": "^4.17.21",
+        "tailwindcss": "^4.1.14"
+    },
+    "devDependencies": {
+        "parcel": "^2.16.0"
+    }
+}
