@@ -1,4 +1,4 @@
-import { Navbar } from './Navbar';
+import { Navbar } from '../components/Navbar';
 import { Outlet } from 'react-router';
 export function MainLayout() {
     const user = { id: 1, firstName: 'Karl', location: 'berlin' };

@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router';
 import { Dashboard } from './pages/Dashboard';
 import { Home } from './pages/Home';
 import { Products } from './pages/Products';
-import { MainLayout } from './components/MainLayout';
+import { MainLayout } from './layouts/MainLayout';
 import { Detail } from './components/Detail';
 
 createRoot(document.getElementById('root')).render(
