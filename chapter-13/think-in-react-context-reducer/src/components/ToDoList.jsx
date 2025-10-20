@@ -1,10 +1,13 @@
 import ToDoItem from './ToDoItem';
+import { useToDoContext } from '../context/TodoContext';
 
-function ToDoList({ todos, toggleTodo }) {
+function ToDoList() {
+    const { todos, dispatch } = useToDoContext();
+
     return (
         <ul>
             {todos.map((todo) => (
-                <ToDoItem key={todo.id} todo={todo} toggleTodo={toggleTodo} />
+                <ToDoItem key={todo.id} todo={todo} dispatch={dispatch} />
             ))}
         </ul>
     );
